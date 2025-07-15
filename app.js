@@ -7,7 +7,7 @@ let h2=document.querySelector("h2");
 let btns=["red","yellow","green","purple"];
 let highscore=0;
 
-document.addEventListener("keypress", function(){
+document.addEventListener("click", function(){
     if(started==false){
         started=true;
         setTimeout(levelup,1000);
